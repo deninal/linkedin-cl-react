@@ -1,0 +1,108 @@
+.network{
+    display:flex;  
+    min-width: 1100px;
+}
+
+.network__left{
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+    top: 80px;
+    margin-right: 20px;
+    position: sticky;
+    height: fit-content;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 10px; 
+}
+.network__header, .invitations__header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid lightgrey;
+    padding: 10px 15px;
+    color: var(--header);
+    align-items: center;
+}
+.network__header > h3, .invitations__header > h3{
+    font-weight: 500;
+    padding: 5px;
+}
+
+.network__options{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    color: var(--description);
+}
+.network__option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.network__option:last-child{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.network__option:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.network__optionLeft{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;  
+}
+.network__optionLeft > span{
+    font-size: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 0;
+}
+.network__optionLeft > h3{
+    margin-left: 10px;
+    font-weight: 400;
+}
+.network__optionRight{
+    margin-right: 15px;
+}
+.network__optionRight > h3{
+    font-weight: 400;
+}
+
+/* Network right side */
+
+.network__right{
+    flex: 0.7;  
+    flex-direction: column;
+    top: 80px;
+    margin-right: 20px;
+    height: fit-content;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+.invitations__body{
+    max-height: 400px;
+    overflow-y: auto;
+}
+.invitations__body::-webkit-scrollbar{
+    width: 5px;
+    background: transparent;
+    opacity: 0;   
+}
+
+.invitations__body::-webkit-scrollbar-thumb{
+    background: lightgray;
+    border-radius: 5px;  
+}
+.invitations__header > h3:last-child:hover{
+    cursor: pointer;
+    background-color: whitesmoke;  
+}
+

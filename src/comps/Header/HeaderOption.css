@@ -1,0 +1,36 @@
+.headerOption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+    color: #585858;
+    cursor: pointer;
+    
+}
+
+.headerOption__avatar{
+    font-size: 20px !important;
+    background-color: rgb(219, 57, 92) !important;
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.headerOption:hover{
+    color: #191919;
+}
+
+.headerOption:active{
+    color: #191919;
+}
+
+.headerOption__icon{
+    font-size: 30px !important;
+    text-decoration: none;
+}
+
+.headerOption__title{
+    font-size: 13px;
+    color: gray;
+    font-weight: 350;
+    text-decoration: none;
+}

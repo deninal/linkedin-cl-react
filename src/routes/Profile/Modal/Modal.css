@@ -1,0 +1,151 @@
+.skills__modal{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 5px;
+    
+}
+
+.skills__modalHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.skills__modalHeader > h2{
+    padding-top: 7px;
+}
+
+.closeIcon__container{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    padding: 7px;
+    border-radius: 50%;
+}
+.closeIcon__container:hover{
+    background-color: var(--icon-background);
+}
+.modal__closeIcon{
+    font-size: 22px !important;
+    color: var(--blue-text) !important;
+}
+
+.skills__inputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.skills__inputContainer  > input {
+    margin-right: 10px;
+    width: 80%;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.skills__inputContainer  > input:focus {
+    outline: 0;
+}
+
+.skills__inputContainer  > button {
+    height: 35px;
+    background-color: var(--icon-background);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.skills__inputContainer  > button:hover{
+    transform: scale(1.1);
+}
+.skills__addIcon{
+    color: var(--blue-text) !important;
+}
+
+
+
+.skills__container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    max-height: 210px;
+    overflow-y: auto;      
+}
+
+
+.skills__container > ul{
+    justify-content: center;  
+}
+
+.skill{
+    display: flex;
+    list-style-type:none;
+    align-items: center;
+    justify-content:left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 10px;
+    max-width: fit-content;
+    min-width: fit-content;
+}
+
+.skill > li{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.delete__button{
+    background: none;
+    border: none;
+    color: var(--blue-text) !important;
+    padding-right: 5px !important;
+    cursor: pointer;
+}
+.delete__button:focus{
+    outline: 0;
+}
+.delete__buttonText{
+    font-size: 15px !important;
+}
+
+
+/* Modal bottom */
+
+.skills__modalBootom{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    justify-content: space-between;
+    padding-top:20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+} 
+.cancel__button, .save__button{
+    padding: 5px 10px;
+    min-width: fit-content;
+    border-radius: 20px;
+    border: none;
+    background-color: whitesmoke;
+    margin-right: 10px;
+    color: var(--blue-text);
+    font-size: 15px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.cancel__button:hover, .save__button:hover{
+    background-color: var(--icon-background);
+}
+.cancel__button:focus, .save__button:focus{
+    outline: 0;
+}

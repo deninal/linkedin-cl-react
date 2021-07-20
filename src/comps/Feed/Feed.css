@@ -1,0 +1,69 @@
+.feed{
+    flex: 0.5;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.feed__inputContainer{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 10px;
+    border: 1px solid lightgrey;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.feed__input{
+    border: 1px solid lightgrey;
+    display: flex;
+    border-radius: 40px;
+    padding: 10px;
+    
+}
+
+
+.feed__createIcon{
+    margin-left: 10px;
+    font-size: 25px !important;
+    color: rgb(107, 107, 107) !important;
+}
+
+.feed__input > form{
+    display: flex;
+    width: 100%;
+}
+
+.feed__input > form > input{
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.feed__input > form > input:focus::-webkit-input-placeholder {
+    color: lightgray;
+}
+
+.feed__input > form > button{
+    display: none;
+}
+
+.feed__inputOptions{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.input__photo{
+    display: flex;
+}

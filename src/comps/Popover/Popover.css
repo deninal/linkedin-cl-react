@@ -1,0 +1,23 @@
+.popover{
+    margin-top: 5px !important;
+    margin-left: 10px !important;
+}
+
+.popover__button{
+    padding: 3px 12px !important;
+    border: 0.5px solid gray !important;
+    border-radius: 30px !important;
+    font-size: 15px !important;
+    font-weight: 550 !important;
+    color: var(--button-color) !important;
+    background-color: white !important;
+    width: fit-content;
+    cursor: pointer;
+    box-shadow: none !important;
+    text-transform: capitalize !important;
+}
+
+.popover__button:hover{
+    border-color: #414141 !important;
+    background-color: whitesmoke !important;
+}
