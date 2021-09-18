@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+I developed a functional LinkedIn Clone from scratch with React.js.
+
+![image](https://user-images.githubusercontent.com/25770207/133892876-73ebda69-26ed-44e9-8370-a0574d1dbcc8.png)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
